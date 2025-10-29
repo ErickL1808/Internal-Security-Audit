@@ -21,10 +21,11 @@ The audit evaluates internal controls, data protection, encryption practices, an
 | Separation of duties | ❌ Not enforced | Reduce fraud & unathorized access to critical data |
 | Disaster Recovery | ❌ Missing | No recovery plan implemented |
 | Password Policy | ⚠️ Weak | Minimal requirements allow potential compromise |
+| Firewall | ✅ In place | Blocks network traffic based on defined set of security rules |
 | IDS/IPS | ❌ Absent | No system in place to detect intrusions |
-| Backups | ⚠️ Partial | Backups not automated or tested |
-| Encryption | ❌ Missing | Sensitive data not encrypted |
-| Antivirus | ✅ Implemented | Installed and monitored by IT department |
+| Backups | ❌ Missing | Backups are not in place & critical data is at risk |
+| Encryption | ❌ Missing | Confidential data is not encrypted |
+| Antivirus | ✅ Implemented | Installed and monitored by the IT department |
 | Data Integrity | ✅ In place | IT ensures consistency and validation |
 
 ---
