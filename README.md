@@ -41,7 +41,7 @@ The audit evaluates internal controls, data protection, encryption practices, an
 - NIST CSF framework application  
 - Compliance evaluation (PCI DSS, GDPR)  
 - Technical documentation and reporting  
-- Microsoft Office Suite (Excel, Word, PDF)  
+- Adobe Acrobat (PDF/Word/Google Docs) 
 
 ---
 
