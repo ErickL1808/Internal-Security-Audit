@@ -50,7 +50,8 @@ The audit evaluates internal controls, data protection, encryption practices, an
 
 ### 📈 Key Recommendations  
 1. **Access Control & Identity Management**  
-   - Implement Active Directory / Entra ID (Centralized user & device management, RBAC permissions, security groups & password policy enforcement) 
+   - **Implement Active Directory / Entra ID** <br>
+(Centralized user & device management, user permissions, security groups & password policy enforcement) 
    - Enforce Role-Based Access Control (RBAC)  
    - Enable Multi-Factor Authentication (MFA). <br>
    
