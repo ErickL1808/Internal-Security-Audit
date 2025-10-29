@@ -85,5 +85,5 @@ It showcases practical understanding of **how cybersecurity professionals assess
 ### 👨‍💻 Author  
 **Erick Leon**  
 Google Cybersecurity Professional Certificate Graduate  
-💼 IT Professional | Cloud & Security Enthusiast  
+💼 IT Professional  
 🔗 [LinkedIn](https://www.linkedin.com/in/
