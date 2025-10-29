@@ -18,6 +18,7 @@ The audit evaluates internal controls, data protection, encryption practices, an
 | Control Area | Status | Summary |
 |---------------|---------|----------|
 | Least Privilege | ❌ Not enforced | All employees have access to customer data |
+| Separation of duties | ❌ Not enforced | Reduce fraud & unathorized access to critical data |
 | Disaster Recovery | ❌ Missing | No recovery plan implemented |
 | Password Policy | ⚠️ Weak | Minimal requirements allow potential compromise |
 | IDS/IPS | ❌ Absent | No system in place to detect intrusions |
