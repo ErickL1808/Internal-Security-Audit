@@ -2,7 +2,7 @@
 
 ### 📘 Overview  
 This project showcases a **mock internal security audit** conducted as part of the **Google Cybersecurity Professional Certificate**.  
-The audit evaluates internal controls, data protection, encryption practices, and compliance with frameworks such as **NIST CSF, PCI DSS, SOC, and GDPR**.
+The audit evaluates internal controls, data protection, encryption practices, and compliance with frameworks such as **NIST CSF, PCI DSS, SOC type 1 & 2, and GDPR**.
 
 ---
 
