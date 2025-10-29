@@ -52,8 +52,8 @@ The audit evaluates internal controls, data protection, encryption practices, an
 1. **Access Control & Identity Management**  
    - **Implement Active Directory / Entra ID** <br>
 (Centralized user & device management, user permissions, security groups & password policy enforcement) 
-   - Enforce Role-Based Access Control (RBAC)  
-   - Enable Multi-Factor Authentication (MFA). <br>
+   - **Enforce Role-Based Access Control (RBAC)**  
+   - **Enable Multi-Factor Authentication (MFA)** <br>
    
 **PCI DSS v4.0** requires **MFA** for all personnel with adminstrative access & anyone accessing the **Cardholder Data Environment (CDE)**. As well for SOC 2 (Trust Services Criteria), MFA is expected under **"Security"** & **"Confidentiality"** principles for protecting access to sensitive data  
 
