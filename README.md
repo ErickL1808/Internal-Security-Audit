@@ -21,10 +21,11 @@ The audit evaluates internal controls, data protection, encryption practices, an
 | Separation of duties | ❌ Not enforced | Reduce fraud & unathorized access to critical data |
 | Disaster Recovery | ❌ Missing | No recovery plan implemented |
 | Password Policy | ⚠️ Weak | Minimal requirements allow potential compromise |
+| Password management | ❌ Missing | Minimal requirements allow potential compromise |
 | Firewall | ✅ In place | Blocks network traffic based on defined set of security rules |
 | IDS/IPS | ❌ Absent | No system in place to detect intrusions |
 | Backups | ❌ Missing | Backups are not in place & critical data is at risk |
-| Encryption | ❌ Missing | Confidential data is not encrypted |
+| Encryption | ❌ Missing | Confidential data is not encrypted, sensitive data is vulnerable |
 | Antivirus | ✅ Implemented | Installed and monitored by the IT department |
 | Data Integrity | ✅ In place | IT ensures consistency and validation |
 
@@ -49,14 +50,21 @@ The audit evaluates internal controls, data protection, encryption practices, an
 
 ### 📈 Key Recommendations  
 1. **Access Control & Identity Management**  
-   - Implement Active Directory / Entra ID  
+   - Implement Active Directory / Entra ID (Centralized user & device management, RBAC permissions, security groups & password policy enforcement) 
    - Enforce Role-Based Access Control (RBAC)  
-   - Enable Multi-Factor Authentication (MFA)
+   - Enable Multi-Factor Authentication (MFA). <br>
+   
+**PCI DSS v4.0** requires **MFA** for all personnel with adminstrative access & anyone accessing the **Cardholder Data Environment (CDE)**. As well for SOC 2 (Trust Services Criteria), MFA is expected under **"Security"** & **"Confidentiality"** principles for protecting access to sensitive data  
 
 2. **Data Protection & Encryption**  
-   - Encrypt all sensitive data (PII/SPII, payment info)  
-   - Use SSL/TLS for data in transit  
-   - Introduce tokenization for PCI DSS compliance  
+   - **Encrypt all sensitive data (PII/SPII, payment info)**<br>
+(Encrypt both ***at rest*** and ***in transit*** using **AES-256** or equivalent standards)
+
+   - **Use SSL/TLS for data in transit** <br>
+(This **protects data** transmitted between **systems & applications**)
+
+   - **Implement tokenization**<br>
+(Introduce **tokenization** for PCI DSS compliance)
 
 3. **Backup & Disaster Recovery**  
    - Implement daily incremental and weekly full backups  
